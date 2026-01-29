@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isFloat16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float16array@esm/index.mjs';
+import isFloat16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float16array@v0.1.0-esm/index.mjs';
 ```
 
 #### isFloat16Array( value )
@@ -81,7 +81,7 @@ import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/in
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import isFloat16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float16array@esm/index.mjs';
+import isFloat16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float16array@v0.1.0-esm/index.mjs';
 
 var bool = isFloat16Array( new Int8Array( 10 ) );
 // returns false

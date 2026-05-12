@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Test if a value is a [Float16Array][mdn-float16array].
+> Test if a value is a [Float16Array][@stdlib/array/float16].
 
 <section class="installation">
 
@@ -65,13 +65,13 @@ var isFloat16Array = require( '@stdlib/assert-is-float16array' );
 
 #### isFloat16Array( value )
 
-Tests if a value is a [`Float16Array`][mdn-float16array].
-
-<!-- TODO: update example once `array/float16` is added -->
+Tests if a value is a [`Float16Array`][@stdlib/array/float16].
 
 ```javascript
-var bool = isFloat16Array( [] );
-// returns false
+var Float16Array = require( '@stdlib/array-float16' );
+
+var bool = isFloat16Array( new Float16Array( 10 ) );
+// returns true
 ```
 
 </section>
@@ -92,11 +92,15 @@ var Int16Array = require( '@stdlib/array-int16' );
 var Uint16Array = require( '@stdlib/array-uint16' );
 var Int32Array = require( '@stdlib/array-int32' );
 var Uint32Array = require( '@stdlib/array-uint32' );
+var Float16Array = require( '@stdlib/array-float16' );
 var Float32Array = require( '@stdlib/array-float32' );
 var Float64Array = require( '@stdlib/array-float64' );
 var isFloat16Array = require( '@stdlib/assert-is-float16array' );
 
-var bool = isFloat16Array( new Int8Array( 10 ) );
+var bool = isFloat16Array( new Float16Array( 10 ) );
+// returns true
+
+bool = isFloat16Array( new Int8Array( 10 ) );
 // returns false
 
 bool = isFloat16Array( new Uint8Array( 10 ) );
@@ -217,7 +221,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-float16array/main/LICENSE
 
-[mdn-float16array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float16Array
+[@stdlib/array/float16]: https://github.com/stdlib-js/array-float16
 
 </section>
 

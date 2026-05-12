@@ -37,7 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-native-class": "^0.2.3"
+    "@stdlib/array-float16": "github:stdlib-js/array-float16#main",
+    "@stdlib/types": "^0.4.3",
+    "@stdlib/utils-constructor-name": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.2.3",

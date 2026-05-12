@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-22)
+## Unreleased (2026-05-12)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`26e94d6`](https://github.com/stdlib-js/stdlib/commit/26e94d6c922b95b2df87e603009c8de1d6f5e773) - **refactor:** update to avoid usage of global symbol _(by Athan Reines)_
 -   [`67c0a20`](https://github.com/stdlib-js/stdlib/commit/67c0a2044e515ea6733765a48be54f09ea749d8f) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11398)](https:-/github.com/stdlib-js/stdlib/pull/11398) _(by Karan Anand)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 
 </section>

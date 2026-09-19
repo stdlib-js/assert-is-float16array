@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,29 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Float16Array } from '@stdlib/types/array';
 
 /**
-* Test if a value is a Float16Array.
+* Tests if a value is a Float16Array.
 *
-* @module @stdlib/assert-is-float16array
+* @param value - value to test
+* @returns boolean indicating whether value is a Float16Array
 *
 * @example
 * var Float16Array = require( '@stdlib/array-float16' );
-* var isFloat16Array = require( '@stdlib/assert-is-float16array' );
 *
 * var bool = isFloat16Array( new Float16Array( 10 ) );
 * // returns true
 *
-* bool = isFloat16Array( [] );
+* @example
+* var bool = isFloat16Array( [] );
 * // returns false
 */
-
-// MODULES //
-
-var isFloat16Array = require( './main.js' );
+declare function isFloat16Array( value: any ): value is Float16Array;
 
 
 // EXPORTS //
 
-module.exports = isFloat16Array;
+export = isFloat16Array;
